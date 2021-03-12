@@ -27,13 +27,6 @@
 * clearventinglogchannel - clears the channel in which the venting are logged
 
 # Hosting notes
-* Remember to keep the Config.xml and ConfigSchema.xsd files in the same directory as the executable file. 
-* The config file contains the channels and prefixes associated with each server, as well as the Token for the bot.
-* The schema file is necessary for validating the config file, and may only be changed when updating the bot.
-* When updating to a new version of the executable, unless told otherwise, keep your own Config.xml file.
-* In order to run the bot you will need to either:
-  * Edit the token property in your Config.xml file to match that of your own bot (found in the Developer Portal).
-  * Enter the token in the console terminal that opens with the bot upon running the executable.
 * In order for the bot to operate correctly, make sure that the bot has Server Member intent enabled in the Developer Portal, and is invited to the server with the following permissions:
   * View Channels
   * Send Messages
