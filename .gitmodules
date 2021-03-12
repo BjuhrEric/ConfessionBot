@@ -1,0 +1,3 @@
+[submodule "SimpleBot"]
+	path = SimpleBot
+	url = git@github.com:BjuhrEric/SimpleBot.git
